@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 15: expected statement.
+    renpy.pause(1.0, hard=True)
+                               ^
+
+Ren'Py Version: Ren'Py 8.5.3.26051504
+Tue Oct 20 18:24:38 2026
