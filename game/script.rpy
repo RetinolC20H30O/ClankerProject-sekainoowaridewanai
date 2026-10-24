@@ -4,6 +4,28 @@
 # name of the character.
 
 define wtf = Character("???")
+define ai = Character("gAI-001")
+
+transform splash_fade:
+    alpha 0.0
+    linear 0.5 alpha 1.0
+    pause 1.0
+    linear 0.5 alpha 0.0
+
+screen splash_text(message):
+    modal True
+    add "#000"
+
+    text message:
+        xalign 0.5
+        yalign 0.5
+        at splash_fade
+
+    # Auto-advance after the fade in, hold, and fade out (0.5 + 1.0 + 0.5)
+    timer 2.0 action Return()
+
+    # Click, Enter, or Space skips just this one
+    key "dismiss" action Return()
 
 label splashscreen:
 
@@ -11,15 +33,12 @@ label splashscreen:
     with Pause(1.0)
 
     play sound "audio/intro.wav"
-    show text "BAANPHONG Studios presents" at truecenter with dissolve
-    renpy.pause(1.0, hard=True)
-    hide text with dissolve
-    with Pause(0.5)
 
-    show text "The World isn't Ending Yet." at truecenter with dissolve
-    with Pause(1.0)
-    hide text with dissolve
-    with Pause(0.5)
+    call screen splash_text("BAANPHONG Studios presents")
+    pause 0.5
+
+    call screen splash_text("The World isn't Ending Yet.")
+    pause 0.5
 
     return
 # The game starts here.
@@ -38,8 +57,9 @@ label start:
 
     # These display lines of dialogue.
 
-    wtf "skibidi sigma placeholder 6767"
-    wtf "this is a placeholder"
+    wtf "I am thankful for my creation, Satou-sama."
+    wtf "..."
+    wtf "Please, take your time.
 
     # This ends the game.
 
