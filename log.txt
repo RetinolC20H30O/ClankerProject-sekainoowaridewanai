@@ -1,31 +1,32 @@
-2026-10-24 04:34:29 UTC
+2026-10-25 10:52:50 UTC
 Linux-6.18.49-1-MANJARO-x86_64-with-glibc2.44
 Ren'Py 8.5.3.26051504
 
-Early init took 59 ms
-Loading error handling took 23 ms
-Loading script took 88 ms
-Loading save slot metadata took 22 ms
+Early init took 56 ms
+Loading error handling took 26 ms
+Loading script took 166 ms
+Loading save slot metadata took 24 ms
 Loading persistent took 0 ms
-Running init code took 45 ms
+Running init code took 42 ms
 Loading analysis data took 4 ms
 Analyze and compile ATL took 2 ms
-Reloading save slot metadata took 1 ms
-Dump and make backups took 47 ms
+Reloading save slot metadata took 2 ms
+Backing up script files to '/home/vitamina/.renpy/backups/ProjectSekainowaridewanai':
+Dump and make backups took 49 ms
 Cleaning cache took 0 ms
-Making clean stores took 1 ms
-Initial gc took 44 ms
+Making clean stores took 0 ms
+Initial gc took 43 ms
 DPI scale factor: 1.000000
 Creating interface object took 0 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
-Load screen analysis took 23 ms
-Analyze screens took 1 ms
-Save screen analysis took 0 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 11 ms
+Save screen analysis took 14 ms
+Save pyanalysis took 4 ms
+Save bytecode took 30 ms
 Running _start took 1 ms
-Interface start took 398 ms
+Interface start took 408 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -37,11 +38,7 @@ Version: '4.6 (Compatibility Profile) Mesa 26.2.2-arch1.1'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1920, 'current_h': 1080, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(1127, 634) drawable=(1127, 634)
 Maximum texture size: 4096x4096
-Cleaning stores took 0 ms
-Load screen analysis took 28 ms
-Analyze screens took 0 ms
-Running _start took 1 ms
-Cleaning stores took 0 ms
-Load screen analysis took 28 ms
+Cleaning stores took 1 ms
+Load screen analysis took 35 ms
 Analyze screens took 0 ms
 Running _start took 1 ms

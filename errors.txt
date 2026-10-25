@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: expected statement.
-    renpy.pause(1.0, hard=True)
-                               ^
+File "game/script.rpy", line 77: expected statement.
+    dissolve
+            ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Tue Oct 20 19:34:44 2026
+Sun Oct 25 17:26:52 2026
