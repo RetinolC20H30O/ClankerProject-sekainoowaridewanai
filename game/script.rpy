@@ -36,8 +36,6 @@ label splashscreen:
     scene black
     with Pause(1.0)
 
-    play sound "audio/intro.wav"
-
     call screen splash_text("BAANPHONG Studios presents")
     pause 0.5
 
@@ -46,7 +44,6 @@ label splashscreen:
 
     return
 # The game starts here.
-
 label start:
     scene black
     with fade
