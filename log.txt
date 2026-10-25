@@ -1,32 +1,32 @@
-2026-10-25 15:01:34 UTC
+2026-10-25 15:53:00 UTC
 Linux-6.18.49-1-MANJARO-x86_64-with-glibc2.44
 Ren'Py 8.5.3.26051504
 
-Early init took 58 ms
-Loading error handling took 20 ms
-Loading script took 96 ms
-Loading save slot metadata took 22 ms
+Early init took 68 ms
+Loading error handling took 22 ms
+Loading script took 148 ms
+Loading save slot metadata took 27 ms
 Loading persistent took 0 ms
-Running init code took 45 ms
+Running init code took 48 ms
 Loading analysis data took 5 ms
-Analyze and compile ATL took 2 ms
-Reloading save slot metadata took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 2 ms
 Backing up script files to '/home/vitamina/.renpy/backups/ProjectSekainowaridewanai':
-Dump and make backups took 49 ms
+Dump and make backups took 58 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
-Initial gc took 42 ms
+Initial gc took 52 ms
 DPI scale factor: 1.000000
-Creating interface object took 0 ms
+Creating interface object took 1 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
 Load screen analysis took 0 ms
-Analyze screens took 14 ms
-Save screen analysis took 19 ms
+Analyze screens took 22 ms
+Save screen analysis took 20 ms
 Save pyanalysis took 0 ms
-Save bytecode took 34 ms
+Save bytecode took 37 ms
 Running _start took 1 ms
-Interface start took 390 ms
+Interface start took 615 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -38,3 +38,7 @@ Version: '4.6 (Compatibility Profile) Mesa 26.2.2-arch1.1'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1920, 'current_h': 1080, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(1127, 634) drawable=(1127, 634)
 Maximum texture size: 4096x4096
+Cleaning stores took 0 ms
+Load screen analysis took 29 ms
+Analyze screens took 0 ms
+Running _start took 2 ms

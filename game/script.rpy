@@ -45,8 +45,10 @@ label splashscreen:
     return
 # The game starts here.
 label start:
+    stop music fadeout 1.25
+
     scene black
-    with fade
+    with dissolve
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg wtf.png" or "bg wtf.jpg") to the
     # images directory to show it.
