@@ -51,7 +51,6 @@ label start:
     with dissolve
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg wtf.png" or "bg wtf.jpg") to the
-    # images directory to show it.
 
     scene bg wtf
     with fade
@@ -65,14 +64,16 @@ label start:
     wtf "I am thankful for my creation, Satou-sama."
     wtf "..."
     wtf "Please, take your time."
-
-    with fade
-    scene black
-    show text "2037"
-    with Pause(1.0)
+#line67
+    scene black with fade
+    pause 0.5
+    show text "2037" at truecenter with dissolve
+    pause 1.0
+    hide text with dissolve
+    pause 0.5
 
     scene bg train
-#line 67
+    play music "audio/Satou_maintheme.ogg"
     anc "{cps=20}This is a local train bound for Nanishima, the next stop is Baguette."
     "My name's Akira Satou. I've lived in this small, weird-named town for as long as i can remember"
     "A year ago, I created an android that resembles the girl of my dreams. Because, obviously, I do not have a human partner."
@@ -82,7 +83,9 @@ label start:
     anc "{cps=20}We will soon be arriving at Baguette, the doors on the left side will open."
     with fade
     "Where is everyone?"
+    stop music fadeout 1.0
     wtf "Long time no see, master!"
+    play music "audio/what_could_go_wrong_rework.ogg" fadein 0.5
     "It was a very soft, comforting sound of a woman."
     "I glanced towards the sound."
     mc "gAI-001!"
