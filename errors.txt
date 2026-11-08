@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 84: expected end of line
-    stop music with fade
-               ^
+File "game/script.rpy", line 59: expected end of line
+    play music audio/music what_could_go_wrong.ogg
+                           ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Wed Oct 28 15:48:41 2026
+Sun Nov  8 20:19:14 2026
