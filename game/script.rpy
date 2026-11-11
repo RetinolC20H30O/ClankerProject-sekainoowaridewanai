@@ -8,7 +8,7 @@ define ai = Character("Inori")
 define anc = Character("Announcement")
 define mc = Character("Akira Satou")
 
-default preferences.text_cps = 40
+default preferences.text_cps = 45
 
 transform splash_fade:
     alpha 0.0

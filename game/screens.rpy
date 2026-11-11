@@ -737,6 +737,11 @@ screen preferences():
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
+            style_prefix "radio"
+            label _("Font")
+            textbutton _("Serif") action Function(change_font, "serif")
+            textbutton _("Sans-serif") action Function(change_font, "sans")
+        vbox:
 
             hbox:
                 box_wrap True
