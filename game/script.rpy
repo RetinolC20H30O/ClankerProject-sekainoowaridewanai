@@ -7,6 +7,7 @@ define wtf = Character("???")
 define ai = Character("Inori")
 define anc = Character("Announcement")
 define mc = Character("Akira Satou")
+define car = Character("Driver")
 
 default preferences.text_cps = 45
 
@@ -111,7 +112,21 @@ label start:
     mc "From now, you'll just be Inori."
     ai "Inori?"
     mc "Inori from the verb {i}Inoru{/i}, means 'to wish'"
-    ai "How lovely!"
+    ai "Noted."
+    "A taxi stopped infront of the station."
+    mc "Look, a cab! Perfect!"
+    "I open the door to the cab."
+    mc "Baguette, please,"
+    stop music fadeout 0.5
+    "The driver went silent."
+    car "Sorry kid, I can't go there. Place is closed."
+    mc "What? Whatdoyamean?"
+    car "I just... I can't take you there kid. Sorry."
+    mc "Oh, thank you anyway..."
+    "I closed the door"
+    ai "What is going on...?"
+    mc "I don't know... but the bigger problem seems to be that we have to walk there."
+    ai "WE'RE GOING TO {i}WHAT{/i}!?"
     # This ends the game.
 
     return

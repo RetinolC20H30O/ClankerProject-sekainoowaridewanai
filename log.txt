@@ -1,45 +1,40 @@
-2026-11-11 13:35:03 UTC
-Windows-10-10.0.19045-SP0
+2026-11-14 05:54:29 UTC
+Linux-6.18.49-1-MANJARO-x86_64-with-glibc2.44
 Ren'Py 8.5.3.26051504
 
-Early init took 58 ms
-Loading error handling took 21 ms
-Loading script took 119 ms
-Loading save slot metadata took 30 ms
+Early init took 88 ms
+Loading error handling took 28 ms
+Loading script took 121 ms
+Loading save slot metadata took 39 ms
 Loading persistent took 0 ms
-Running init code took 55 ms
-Loading analysis data took 3 ms
-Analyze and compile ATL took 1 ms
-Reloading save slot metadata took 11 ms
-Dump and make backups took 41 ms
+Running init code took 53 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 7 ms
+Backing up script files to '/home/vitamina/.renpy/backups/ProjectSekainowaridewanai':
+Dump and make backups took 54 ms
 Cleaning cache took 0 ms
-Making clean stores took 1 ms
-Initial gc took 41 ms
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 336 ms
-Init translation took 0 ms
+Making clean stores took 0 ms
+Initial gc took 62 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
 Cleaning stores took 0 ms
-Load screen analysis took 19 ms
-Analyze screens took 1 ms
-Save screen analysis took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 23 ms
+Save screen analysis took 25 ms
 Save pyanalysis took 0 ms
 Save bytecode took 0 ms
-Running _start took 1 ms
-Interface start took 254 ms
+Running _start took 2 ms
+Interface start took 613 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'Quadro M2000M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 582.16'
+Vendor: 'Intel'
+Renderer: 'Mesa Intel(R) HD Graphics 520 (SKL GT2)'
+Version: '4.6 (Compatibility Profile) Mesa 26.2.2-arch1.1'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 1920, 'current_h': 1080, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(1404, 790) drawable=(1404, 790)
+Screen sizes: virtual=(1920, 1080) physical=(1127, 634) drawable=(1127, 634)
 Maximum texture size: 4096x4096
-Cleaning stores took 0 ms
-Load screen analysis took 19 ms
-Analyze screens took 0 ms
-Running _start took 1 ms
