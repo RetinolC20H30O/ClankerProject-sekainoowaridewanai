@@ -91,7 +91,7 @@ label start:
     hide text with dissolve
     pause 0.5
 
-    scene bg train
+    scene train_2
     play music "audio/Satou_maintheme.ogg"
     anc "{cps=20}This is a local train bound for Nanishima, the next stop is Baguette."
     "My name's Akira Satou. I've lived in this small, weird-named town for as long as i can remember"
