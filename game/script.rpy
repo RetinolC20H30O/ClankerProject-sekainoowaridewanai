@@ -126,7 +126,9 @@ label start:
     "I closed the door"
     ai "What is going on...?"
     mc "I don't know... but the bigger problem seems to be that we have to walk there."
-    ai "WE'RE GOING TO {i}WHAT{/i}!?"
+    ai "WE'RE GOING TO {i}WHAT!?{/i}"
+    scene black with fade
+    pause 0.5
     # This ends the game.
 
     return
