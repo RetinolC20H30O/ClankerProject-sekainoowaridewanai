@@ -1,17 +1,5 @@
 ﻿## This file contains options that can be changed to customize your game.
 ##
-## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
-## them. Lines beginning with a single '#' mark are commented-out code, and you
-## may want to uncomment them when appropriate.
-
-
-## Basics ######################################################################
-
-## A human-readable name of the game. This is used to set the default window
-## title, and shows up in the interface and error reports.
-##
-## The _() surrounding the string marks it as eligible for translation.
-
 define config.name = _("ProjectSekainowaridewanai")
 
 
@@ -209,3 +197,27 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+define slowdissolve = Dissolve(1.0)
+
+transform card_subtitle:
+    alpha 0.0
+    pause 0.8
+    linear 1.0 alpha 1.0
+
+screen chapter_card(title, subtitle):
+    add "#000"
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 20
+
+        text title size 67 color "#ffffff" xalign 0.5
+        text subtitle size 36 color "#ffffff" xalign 0.5 at card_subtitle
+
+label chapter_card(title, subtitle):
+    show screen chapter_card(title, subtitle) with slowdissolve
+    pause 2.0
+    hide screen chapter_card with slowdissolve
+    pause 0.5
+    return
