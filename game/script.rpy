@@ -88,9 +88,8 @@ label start:
     wtf "..."
     wtf "Please, take your time."
     #Cpt1
+    scene black
     call chapter_card ("Chapter I", "One Year After")
-    scene black with fade
-    pause 0.5
     show text "2037" at truecenter with dissolve
     pause 1.0
     hide text with dissolve

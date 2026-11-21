@@ -1,32 +1,32 @@
-2026-11-21 08:58:09 UTC
+2026-11-21 09:02:41 UTC
 Linux-6.18.55-1-MANJARO-x86_64-with-glibc2.44
 Ren'Py 8.5.3.26051504
 
-Early init took 62 ms
-Loading error handling took 23 ms
-Loading script took 146 ms
-Loading save slot metadata took 28 ms
+Early init took 57 ms
+Loading error handling took 19 ms
+Loading script took 126 ms
+Loading save slot metadata took 27 ms
 Loading persistent took 0 ms
-Running init code took 48 ms
-Loading analysis data took 5 ms
-Analyze and compile ATL took 2 ms
+Running init code took 52 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
 Reloading save slot metadata took 5 ms
 Backing up script files to '/home/vitamina/.renpy/backups/ProjectSekainowaridewanai':
-Dump and make backups took 62 ms
+Dump and make backups took 48 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
-Initial gc took 53 ms
+Initial gc took 45 ms
 DPI scale factor: 1.000000
-Creating interface object took 1 ms
+Creating interface object took 0 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
 Load screen analysis took 0 ms
-Analyze screens took 19 ms
-Save screen analysis took 19 ms
+Analyze screens took 12 ms
+Save screen analysis took 14 ms
 Save pyanalysis took 0 ms
-Save bytecode took 33 ms
+Save bytecode took 0 ms
 Running _start took 1 ms
-Interface start took 421 ms
+Interface start took 350 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
